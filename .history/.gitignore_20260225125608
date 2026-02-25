@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+.env
+
+# Node / React Native / Expo
+node_modules/
+npm-debug.log*
+yarn.lock
+.expo/
+.expo-shared/
+dist/
+build/
+
+# Terraform
+infra/.terraform/
+infra/terraform.tfstate*
+infra/terraform.tfvars
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
